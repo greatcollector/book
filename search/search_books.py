@@ -47,6 +47,20 @@ def eligible_blocks(blocks,exclude_documents=()):
         if len(re.findall(r'[\u3400-\u9fff]',t))>=1 and len(t)<45:continue
         yield loc,t
 
+def contextual_blocks(blocks):
+    """Attach English section headings to paragraphs, never index bare headings."""
+    heading=''; heading_loc=''; prev_doc=None
+    for loc,text in blocks:
+        doc=loc.split('#')[0]
+        if doc!=prev_doc:heading='';heading_loc='';prev_doc=doc
+        words=text.split();letters=''.join(re.findall('[A-Za-z]',text))
+        is_heading=bool(letters) and len(words)<=18 and (letters.isupper() or bool(re.match(r'^CHAPTER [IVXLC]+\.',text)))
+        if is_heading:
+            heading=text;heading_loc=loc;continue
+        if heading and len(words)>=20:
+            yield loc+';heading='+heading_loc,'[Section: '+heading+'] '+text
+        else:yield loc,text
+
 def extract(path):
     """Yield source locators and text, in EPUB spine or TXT paragraph order."""
     path=Path(path)
@@ -99,13 +113,13 @@ def chunk_blocks(blocks,max_words=350,max_chars=900):
 def build(catalog,db):
     books=json.loads(Path(catalog).read_text()); rows=[]; seen=set()
     for book in books:
-        if not (book.get('rights_cleared') or book.get('usage_scope')=='user_supplied_private_analysis'):raise ValueError(f"Rights not cleared: {book['id']}")
+        if not (book.get('rights_cleared') or book.get('usage_scope') in ('user_supplied_private_analysis','reviewed_private_analysis')):raise ValueError(f"Rights not cleared: {book['id']}")
         if book['id'] in seen:raise ValueError('Duplicate book ID')
         seen.add(book['id']); path=Path(book['path'])
         if not path.is_absolute():path=Path(catalog).parent/path
         sha=hashlib.sha256(path.read_bytes()).hexdigest()
         if book.get('sha256') and book['sha256']!=sha:raise ValueError('Source hash mismatch')
-        for n,(loc,offset,text) in enumerate(chunk_blocks(eligible_blocks(extract(path),book.get('exclude_documents',[]))),1):
+        for n,(loc,offset,text) in enumerate(chunk_blocks(contextual_blocks(eligible_blocks(((l,t) for l,t in extract(path) if l not in book.get('exclude_locators',[])),book.get('exclude_documents',[])))),1):
             rows.append((f"{book['id']}:{n:05}",book['id'],book['title'],loc,offset,text,sha))
     if not rows:raise ValueError('No text extracted')
     counts=[collections.Counter(terms(r[5])) for r in rows]; df=collections.Counter()
@@ -122,19 +136,19 @@ def build(catalog,db):
         con.execute('CREATE TABLE chunks(id TEXT PRIMARY KEY,book_id TEXT,title TEXT,locator TEXT,word_offset INTEGER,text TEXT,source_sha256 TEXT,vector TEXT)')
         con.execute('CREATE TABLE metadata(key TEXT PRIMARY KEY,value TEXT)')
         con.executemany('INSERT INTO chunks VALUES(?,?,?,?,?,?,?,?)',[r+(json.dumps(v,sort_keys=True),) for r,v in zip(rows,vectors)])
-        con.executemany('INSERT INTO metadata VALUES(?,?)',[('idf',json.dumps(idf,sort_keys=True)),('method','tfidf-cosine-cjk-ngram-v2'),('book_count',str(len(books)))])
+        con.executemany('INSERT INTO metadata VALUES(?,?)',[('idf',json.dumps(idf,sort_keys=True)),('method','tfidf-cosine-cjk-ngram-v3'),('book_count',str(len(books)))])
     con.close(); return {'books':len(books),'chunks':len(rows),'vocabulary':len(idf),'method':'TF-IDF cosine (lexical, not neural semantic)'}
 
-def search(db,query,k=5,min_score=0.035,min_coverage=0.60):
+def search(db,query,k=5,min_score=0.035,min_coverage=0.60,book_id=None):
     con=sqlite3.connect(f'file:{Path(db).absolute()}?mode=ro',uri=True)
     method=con.execute("SELECT value FROM metadata WHERE key='method'").fetchone()[0]
-    if method!='tfidf-cosine-cjk-ngram-v2':
-        con.close();raise ValueError('Rebuild index for v2 tokenizer')
+    if method!='tfidf-cosine-cjk-ngram-v3':
+        con.close();raise ValueError('Rebuild index for v3 context')
     idf=json.loads(con.execute("SELECT value FROM metadata WHERE key='idf'").fetchone()[0])
     c=collections.Counter(terms(query)); v={t:(1+math.log(n))*idf[t] for t,n in c.items() if t in idf}; norm=math.sqrt(sum(x*x for x in v.values()))
     if not norm:con.close();return []
     v={t:x/norm for t,x in v.items()}; result=[]
-    for row in con.execute('SELECT * FROM chunks'):
+    for row in con.execute('SELECT * FROM chunks WHERE (? IS NULL OR book_id=?)',(book_id,book_id)):
         vec=json.loads(row[7]); score=sum(x*vec.get(t,0) for t,x in v.items())
         coverage=sum(1 for t in c if t in vec)/len(c)
         if score>=min_score and coverage>=min_coverage:result.append(dict(zip(['id','book_id','title','locator','word_offset','text','source_sha256'],row[:7]),score=round(score,6),query_term_coverage=round(coverage,4)))
