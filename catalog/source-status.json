@@ -1,7 +1,13 @@
 {
   "snapshot_date": "2026-11-13",
-  "scope_note": "首轮来源调查的元数据快照，不是全文归档或版权法律意见。仅保留书目、来源链接与报告中的访问/权利状态。原记录未单独标明最终页面访问程度时，明确记为未单独记录。未核事项仍需核实。",
-  "public_fulltext_files_in_this_batch": 0,
+  "scope_note": "来源调查元数据快照。取得文件、允许私有研究、可公开再分发是不同状态；任何地区的公版声明不代表全球版权已核。本文件不含正文或索引。",
+  "summary": {
+    "catalog_records": 86,
+    "english_private_pilot_files_acquired": 6,
+    "additional_file_quarantined": 1,
+    "public_fulltext_files_uploaded": 0,
+    "global_redistribution_clearance_confirmed": 0
+  },
   "books": [
     {
       "id": "M001",
@@ -11,14 +17,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.thesecret.tv/products/the-secret-book/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M001",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=The%20Secret%20Rhonda%20Byrne",
-        "bytes": 113026
+        "url": "https://openlibrary.org/search?q=The%20Secret%20Rhonda%20Byrne"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -29,14 +39,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.thesecret.tv/rhonda-byrnes-biography/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M002",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=The%20Power%20Rhonda%20Byrne",
-        "bytes": 88690
+        "url": "https://openlibrary.org/search?q=The%20Power%20Rhonda%20Byrne"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -47,14 +61,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.thesecret.tv/rhonda-byrnes-biography/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M003",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=The%20Magic%20Rhonda%20Byrne",
-        "bytes": 68220
+        "url": "https://openlibrary.org/search?q=The%20Magic%20Rhonda%20Byrne"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -65,14 +83,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.thesecret.tv/rhonda-byrnes-biography/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M004",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=Hero%20Rhonda%20Byrne",
-        "bytes": 60923
+        "url": "https://openlibrary.org/search?q=Hero%20Rhonda%20Byrne"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -83,14 +105,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.thesecret.tv/products/the-greatest-secret-book/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M005",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=The%20Greatest%20Secret%20Rhonda%20Byrne",
-        "bytes": 61307
+        "url": "https://openlibrary.org/search?q=The%20Greatest%20Secret%20Rhonda%20Byrne"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -101,14 +127,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.thesecret.tv/rhonda-byrnes-biography/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M006",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=How%20The%20Secret%20Changed%20My%20Life%20Rhonda%20Byrne",
-        "bytes": 64764
+        "url": "https://openlibrary.org/search?q=How%20The%20Secret%20Changed%20My%20Life%20Rhonda%20Byrne"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -119,14 +149,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://shop.hayhouse.com/products/ask-and-it-is-given",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M007",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=Ask%20and%20It%20Is%20Given%20Esther%20%26%20Jerry%20Hicks",
-        "bytes": 46312
+        "url": "https://openlibrary.org/search?q=Ask%20and%20It%20Is%20Given%20Esther%20%26%20Jerry%20Hicks"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -137,14 +171,18 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/books/600971/the-law-of-attraction-by-esther-and-jerry-hicks/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M008",
         "status": 200,
-        "url": "https://openlibrary.org/search?q=The%20Law%20of%20Attraction%20Esther%20%26%20Jerry%20Hicks",
-        "bytes": 61731
+        "url": "https://openlibrary.org/search?q=The%20Law%20of%20Attraction%20Esther%20%26%20Jerry%20Hicks"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -155,12 +193,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/books/601026/the-astonishing-power-of-emotions-by-esther-and-jerry-hicks/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M009",
         "error": "HTTP Error 429: Too Many Requests"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -171,12 +214,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/books/601011/money-and-the-law-of-attraction-by-esther-hicks/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M010",
         "error": "HTTP Error 429: Too Many Requests"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -187,12 +235,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/books/601008/the-amazing-power-of-deliberate-intent-by-esther-and-jerry-hicks/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M011",
         "error": "HTTP Error 429: Too Many Requests"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -203,12 +256,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.hachettebookgroup.com/titles/michael-j-losier/law-of-attraction/9780446199735/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M012",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -219,12 +277,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M013",
         "error": "HTTP Error 429: Too Many Requests"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -235,12 +298,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M014",
         "error": "HTTP Error 429: Too Many Requests"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -251,12 +319,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M015",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -267,12 +340,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M016",
         "error": "HTTP Error 429: Too Many Requests"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -283,12 +361,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M017",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -299,12 +382,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M018",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -315,12 +403,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M019",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -331,12 +424,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M020",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -347,12 +445,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M021",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -363,12 +466,17 @@
       "source_type": "third_party_reading_archive",
       "bibliography_check": "找到 Neville 系列免费阅读档案；具体原版版权页/续期记录未核实",
       "rights_check": "站方称公版不等于确证；未核实美国版权续期和适用地区，不上传",
+      "rights_evidence_url": "https://readnevillegoddard.com/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M022",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -379,15 +487,20 @@
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
       "rights_check": "具体 EPUB 内声明美国公版并包含完整 Gutenberg 许可；免费原样再分发须保留许可。公共远端上传仍待主线程确认地区范围。",
+      "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M023",
         "status": 200,
-        "url": "https://www.gutenberg.org/ebooks/59844",
-        "bytes": 25276
+        "url": "https://www.gutenberg.org/ebooks/59844"
       },
-      "public_fulltext_status": "not_uploaded"
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
+      "public_fulltext_status": "not_uploaded",
+      "acquired_language": "English"
     },
     {
       "id": "M024",
@@ -397,12 +510,17 @@
       "source_type": "public_domain_library",
       "bibliography_check": "书库记录为 1911 年完整未改动文本，含原传记附记",
       "rights_check": "条目明确标为 Public domain；书库规则区分公版与仅限借阅的版权书",
+      "rights_evidence_url": "https://soilandhealth.org/library-rules-and-copyright-notice-ag/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M024",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "downloaded_quarantined_copy_restriction",
+      "private_use_status": "excluded_from_pilot_copy_restriction",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -413,47 +531,66 @@
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
       "rights_check": "具体 EPUB 内声明美国公版并包含完整 Gutenberg 许可；免费原样再分发须保留许可。公共远端上传仍待主线程确认地区范围。",
+      "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M025",
         "status": 200,
-        "url": "https://www.gutenberg.org/ebooks/4507",
-        "bytes": 23440
+        "url": "https://www.gutenberg.org/ebooks/4507"
       },
-      "public_fulltext_status": "not_uploaded"
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
+      "public_fulltext_status": "not_uploaded",
+      "acquired_language": "English"
     },
     {
       "id": "M026",
       "title_en": "The Master Key System",
       "author": "查尔斯·哈奈尔 Charles F. Haanel",
-      "final_source_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp36853",
-      "source_type": "university_catalog",
-      "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "早期原版候选；需继续核实具体下载文件与再分发条件",
+      "final_source_url": "https://www.globalgreyebooks.com/master-key-system-ebook.html",
+      "source_type": "global_grey_public_domain_archive",
+      "bibliography_check": "具体 EPUB 题名作者相符，ZIP CRC 通过；完整章节和结尾已检查",
+      "rights_check": "Global Grey 明示英国公版及无DRM；允许公版正文再利用，但公开托管须先去除其名称和标志。尚未制作合规公开副本。",
+      "rights_evidence_url": "https://www.globalgreyebooks.com/terms-conditions.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M026",
         "error": "The read operation timed out"
       },
-      "public_fulltext_status": "not_uploaded"
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
+      "public_fulltext_status": "not_uploaded",
+      "acquired_language": "English",
+      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared."
     },
     {
       "id": "M027",
       "title_en": "Thought Vibration or the Law of Attraction in the Thought World",
       "author": "威廉·沃克·阿特金森 William Walker Atkinson",
-      "final_source_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp53874",
-      "source_type": "university_catalog",
-      "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "早期原版候选；需继续核实具体下载文件与再分发条件",
+      "final_source_url": "https://www.globalgreyebooks.com/thought-vibration-or-the-law-of-attraction-in-the-thought-world-ebook.html",
+      "source_type": "global_grey_public_domain_archive",
+      "bibliography_check": "具体 EPUB 题名作者相符，ZIP CRC 通过；完整章节和结尾已检查",
+      "rights_check": "Global Grey 明示英国公版及无DRM；允许公版正文再利用，但公开托管须先去除其名称和标志。尚未制作合规公开副本。",
+      "rights_evidence_url": "https://www.globalgreyebooks.com/terms-conditions.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M027",
         "error": "The read operation timed out"
       },
-      "public_fulltext_status": "not_uploaded"
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
+      "public_fulltext_status": "not_uploaded",
+      "acquired_language": "English",
+      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared."
     },
     {
       "id": "M028",
@@ -463,14 +600,18 @@
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
       "rights_check": "Gutenberg 明示美国公版；须保留嵌入许可，非美国地区需独立确认",
+      "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M028",
         "status": 200,
-        "url": "https://www.gutenberg.org/ebooks/23559",
-        "bytes": 24686
+        "url": "https://www.gutenberg.org/ebooks/23559"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -481,31 +622,43 @@
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
       "rights_check": "具体 EPUB 内声明美国公版并包含完整 Gutenberg 许可；免费原样再分发须保留许可。公共远端上传仍待主线程确认地区范围。",
+      "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M029",
         "status": 200,
-        "url": "https://www.gutenberg.org/ebooks/74878",
-        "bytes": 25407
+        "url": "https://www.gutenberg.org/ebooks/74878"
       },
-      "public_fulltext_status": "not_uploaded"
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
+      "public_fulltext_status": "not_uploaded",
+      "acquired_language": "English"
     },
     {
       "id": "M030",
       "title_en": "Your Word Is Your Wand",
       "author": "弗洛伦斯·斯科维尔·希恩 Florence Scovel Shinn",
-      "final_source_url": "https://sacred-texts.com/book/your-word-is-your-wand",
-      "source_type": "sacred_texts_archive",
-      "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "站点提供英文全文并声称美国公版；具体使用条款和地域适用性仍需核",
+      "final_source_url": "https://www.globalgreyebooks.com/your-word-is-your-wand-ebook.html",
+      "source_type": "global_grey_public_domain_archive",
+      "bibliography_check": "具体 EPUB 题名作者相符，ZIP CRC 通过；完整章节和结尾已检查",
+      "rights_check": "Global Grey 明示英国公版及无DRM；允许公版正文再利用，但公开托管须先去除其名称和标志。尚未制作合规公开副本。",
+      "rights_evidence_url": "https://www.globalgreyebooks.com/terms-conditions.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M030",
         "error": "The read operation timed out"
       },
-      "public_fulltext_status": "not_uploaded"
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
+      "public_fulltext_status": "not_uploaded",
+      "acquired_language": "English",
+      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared."
     },
     {
       "id": "M031",
@@ -515,12 +668,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://devorss.com/products/the-secret-door-to-success",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M031",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -531,12 +689,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://devorss.com/products/the-power-of-the-spoken-word",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M032",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -547,12 +710,17 @@
       "source_type": "sacred_texts_archive",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "站点提供英文全文并声称美国公版；具体使用条款和地域适用性仍需核",
+      "rights_evidence_url": "https://sacred-texts.com/copyrights",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M033",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -563,12 +731,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/books/296695/the-power-of-your-subconscious-mind-by-joseph-murphy-phd-dd/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M034",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -579,12 +752,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.simonandschuster.com/books/Believe-in-Yourself/Joseph-Murphy/9798880902453",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M035",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -595,12 +773,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.naphill.org/shop/books/paperback/think-and-grow-rich-the-1937-edition/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M036",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -611,12 +794,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://redwheelweiser.com/book/the-nature-of-personal-reality-9781878424068/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M037",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -627,12 +815,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://redwheelweiser.com/book/seth-speaks-9781878424075/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M038",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -643,12 +836,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/series/E3L/a-seth-book/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M039",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -659,12 +857,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/series/E3L/a-seth-book/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M040",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -675,12 +878,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/series/E3L/a-seth-book/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M041",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -691,12 +899,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://www.penguinrandomhouse.com/series/E3L/a-seth-book/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M042",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -707,12 +920,17 @@
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
       "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_evidence_url": "https://redwheelweiser.com/book/the-magical-approach-9781878424099/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
-      "source_access_status": "not_separately_recorded_in_first_pass",
+      "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M043",
         "error": "The read operation timed out"
       },
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -724,9 +942,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -738,9 +963,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -752,9 +984,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -766,9 +1005,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "出版社独立书页确认题名、作者与商业出版；未取得全文或再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -780,9 +1026,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "出版社独立书页确认题名、作者与商业出版；未取得全文或再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -794,9 +1047,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -808,9 +1068,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "出版社独立书页确认题名、作者与商业出版；未取得全文或再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -822,9 +1089,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -836,9 +1110,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -850,9 +1131,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -864,9 +1152,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -878,9 +1173,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -892,9 +1194,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -906,9 +1215,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -920,9 +1236,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -934,9 +1257,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -948,10 +1278,17 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "作者官方国际语言表提供简体中文链接；京东页未返回完整书籍详情，不据此宣称全文可用。",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
       "chinese_source_url": "https://item.jd.com/12292688.html",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -963,10 +1300,17 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "作者官方引导至繁体中文版《啟動你的內在療癒力，創造自己的人生奇蹟》，远流，柯宗佑译，2018-12-27。",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
       "chinese_source_url": "https://www.books.com.tw/products/0010808821",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -978,10 +1322,17 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "作者官网引导至繁体中文版《開啟你的驚人天賦》；正规购买入口，未购买、未获取全文。",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
       "chinese_source_url": "https://www.books.com.tw/products/0010819071?sloc=main",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -993,9 +1344,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "出版社独立书页确认题名、作者与商业出版；未取得全文或再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1007,9 +1365,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1021,9 +1386,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1035,9 +1407,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1049,9 +1428,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "出版社书页明确标注 All rights reserved；无公开再分发许可。",
+      "rights_evidence_url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118258095",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "all_rights_reserved",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1063,9 +1449,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "出版社书页明确标注 All rights reserved；无公开再分发许可。",
+      "rights_evidence_url": "https://onlinelibrary.wiley.com/book/10.1002/9781118258118",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "all_rights_reserved",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1077,9 +1470,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "作者官网提供 Chapter 1 节选，不是全书，也未提供整本再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "official_excerpt_only",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1090,10 +1490,17 @@
       "source_access_status": "opened_source_page",
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
-      "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_check": "早期版本存在美国公版声明候选，未完成权威核验；1984修订版不能直接等同初版。",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "edition_specific_public_domain_claim_unverified",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1105,9 +1512,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1119,10 +1533,17 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "Macmillan/Sounds True书籍页：ISBN 9781622030507，216页，2013-05-01；已与同名音频课程区分。",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "出版社提供标记为 websample 的 PDF；不能算完整书，不能据此公开再分发全书。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
       "official_sample_url": "https://soundstrue-media.s3.amazonaws.com/pdf/k2271-LifeVisioning-websample.pdf",
+      "legal_full_text_status": "official_sample_only",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1134,9 +1555,18 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "series_scope": "O-Books 原始英文五卷系列（不是作者所有后续作品）；五卷仍均未取得可再分发全文",
+      "series_scope_evidence_url": "https://books.google.com/books?id=RlziZBYyWr0C&printsec=copyright",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1148,9 +1578,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1162,9 +1599,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1176,9 +1620,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1190,9 +1641,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1204,9 +1662,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1218,9 +1683,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1232,9 +1704,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1246,9 +1725,16 @@
       "source_entry_access_status": "opened",
       "bibliography_check": "出版商页面明确对应 Rethinking Positive Thinking / Gabriele Oettingen，繁体中文版",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "已核实繁体中文版本：正向思考不是你想的那樣；译者杨玉龄；天下文化；页面显示绝版书籍",
       "reason": "原始中文出版社入口已打开；仅书籍介绍与节选，没有全文授权。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1260,9 +1746,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1274,10 +1767,17 @@
       "source_entry_access_status": "opened_catalog_search",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "作者官网链接至繁体中文版《原子習慣》；电子书另有链接但访问403，未获取全文。",
       "reason": "Open Library 搜索页显示 Preview，不是可再分发全文；作者官网为正规版本与购买入口。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
       "chinese_source_url": "https://www.books.com.tw/products/0010822522?loc=P_0001_011",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1287,11 +1787,18 @@
       "final_source_url": "https://search.worldcat.org/title/36074515",
       "source_access_status": "opened_source_page",
       "source_entry_access_status": "attempted_tool_inaccessible",
-      "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
+      "bibliography_check": "WorldCat与Google Books对应Albert Bandura, Self-Efficacy: The Exercise of Control, W.H. Freeman/Macmillan, 1997, 604页；不能用1977论文替代本书。",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "WorldCat 馆藏确认作者与题名；不是全文来源，也不提供再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1303,9 +1810,16 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
+      "legal_full_text_status": "not_obtained",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     },
     {
@@ -1317,10 +1831,17 @@
       "source_entry_access_status": "attempted_tool_inaccessible",
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
+      "rights_evidence_url": "",
       "language_status": "英语正规来源已定位；中文可再分发全文未确认",
       "reason": "作者官网提供首章及导言样章；不是完整书，未确认全文再分发许可。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
       "official_sample_url": "https://thehappinesstrap.com/wp-content/uploads/2021/10/2nd-edition-of-The-Happiness-Trap-chapter-1.pdf",
+      "legal_full_text_status": "official_sample_only",
+      "rights_status": "permission_not_established",
+      "acquisition_status": "not_acquired",
+      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "redistribution_status": "not_cleared_for_public_repository",
+      "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded"
     }
   ]
