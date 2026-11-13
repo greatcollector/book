@@ -1,12 +1,18 @@
 {
   "snapshot_date": "2026-11-13",
-  "scope_note": "来源调查元数据快照。取得文件、允许私有研究、可公开再分发是不同状态；任何地区的公版声明不代表全球版权已核。本文件不含正文或索引。",
+  "scope_note": "来源调查元数据快照。取得文件、允许私有研究、可公开再分发是不同状态；任何地区的公版声明不代表全球版权已核。本文件不含正文或索引。 用户提供文件与公开来源调查分别记录；收到文件不等于版本及完整性已验证，更不等于获得公开再分发授权。",
   "summary": {
     "catalog_records": 86,
     "english_private_pilot_files_acquired": 6,
     "additional_file_quarantined": 1,
     "public_fulltext_files_uploaded": 0,
-    "global_redistribution_clearance_confirmed": 0
+    "global_redistribution_clearance_confirmed": 0,
+    "user_supplied_private_analysis_records": 3,
+    "user_supplied_private_analysis_ids": [
+      "M036",
+      "M055",
+      "M056"
+    ]
   },
   "books": [
     {
@@ -780,11 +786,14 @@
         "id": "M036",
         "error": "The read operation timed out"
       },
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "user_supplied_file_received",
+      "private_use_status": "user_supplied_private_analysis_only",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "legal_full_text_status": "user_supplied_file_received_completeness_not_asserted_by_this_metadata_update",
+      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。",
+      "reason": "用户已提供文件供私有分析；未公开上传正文，完整性及具体版本依私有核验记录另行确认。"
     },
     {
       "id": "M037",
@@ -952,7 +961,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://nypl.overdrive.com/media/5546925",
+          "type": "library_borrowing",
+          "note": "NYPL/OverDrive提供电子书借阅入口，需要合格馆证及可借副本；未借阅。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M045",
@@ -973,7 +991,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://books.apple.com/us/book/creative-visualization/id1175956323",
+          "type": "paid_ebook",
+          "note": "Apple Books正版电子书页面；未购买。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M046",
@@ -994,7 +1021,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://play.google.com/store/books/details/The_Shakti_Gawain_Essentials_3_Books_in_1_Creative?hl=en_CA&id=dcLCCQAAQBAJ",
+          "type": "paid_ebook_omnibus",
+          "note": "正版3合1电子书含 Living in the Light；仅备选合订版，不冒充已取得独立版。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M047",
@@ -1015,7 +1051,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M048",
@@ -1036,7 +1073,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M049",
@@ -1057,7 +1095,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M050",
@@ -1078,7 +1117,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M051",
@@ -1099,7 +1139,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://penguinrandomhouselibrary.com/book/?isbn=9781401937294",
+          "type": "publisher_ebook_catalog",
+          "note": "官方标注 Ebook (EPUB)，ISBN9781401937294；不提供无条件下载。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M052",
@@ -1120,7 +1169,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M053",
@@ -1141,7 +1191,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M054",
@@ -1162,7 +1213,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.orionbooks.co.uk/titles/jack-canfield/the-key-to-living-the-law-of-attraction/9781409105220/",
+          "type": "publisher_ebook_catalog",
+          "note": "Orion独立电子书版本入口，未购买。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M055",
@@ -1174,16 +1234,18 @@
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
       "rights_evidence_url": "",
-      "language_status": "英语正规来源已定位；中文可再分发全文未确认",
-      "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
+      "language_status": "公开来源的可再分发中文全文未确认；用户提供版本的语言与完整性不在本次元数据更新中推定。",
+      "reason": "用户已提供文件供私有分析；未公开上传正文，完整性及具体版本依私有核验记录另行确认。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
-      "legal_full_text_status": "not_obtained",
+      "legal_full_text_status": "user_supplied_file_received_completeness_not_asserted_by_this_metadata_update",
       "rights_status": "permission_not_established",
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "user_supplied_file_received",
+      "private_use_status": "user_supplied_private_analysis_only",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。"
     },
     {
       "id": "M056",
@@ -1195,16 +1257,26 @@
       "bibliography_check": "题名与作者已有检索结果对应；具体可获取版次仍需核对",
       "rights_check": "未找到该具体版本可公开再分发全文的明确许可；不得据此上传全文",
       "rights_evidence_url": "",
-      "language_status": "英语正规来源已定位；中文可再分发全文未确认",
-      "reason": "正规书目、作者或出版社入口不等于全文下载许可；未获取全文，未执行购书或借阅。",
+      "language_status": "公开来源的可再分发中文全文未确认；用户提供版本的语言与完整性不在本次元数据更新中推定。",
+      "reason": "用户已提供文件供私有分析；未公开上传正文，完整性及具体版本依私有核验记录另行确认。",
       "research_scope": "已尝试原始入口，并按题名及作者检索正规来源。尚不能声称穷尽所有合法全文来源。",
-      "legal_full_text_status": "not_obtained",
+      "legal_full_text_status": "user_supplied_file_received_completeness_not_asserted_by_this_metadata_update",
       "rights_status": "permission_not_established",
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "user_supplied_file_received",
+      "private_use_status": "user_supplied_private_analysis_only",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.penguin.co.uk/books/453105/manifest-dive-deeper-by-nafousi-roxie/9780241608005",
+          "type": "publisher_ebook_catalog",
+          "note": "官方提供Ebook格式选项；音频附属PDF不是全书。",
+          "public_redistribution_granted": false
+        }
+      ],
+      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。"
     },
     {
       "id": "M057",
@@ -1225,7 +1297,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://books.apple.com/us/book/super-attractor/id1448624024",
+          "type": "paid_ebook",
+          "note": "正版电子书入口，未购买。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M058",
@@ -1246,7 +1327,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M059",
@@ -1267,7 +1349,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.overdrive.com/media/642472/spirit-junkie",
+          "type": "library_borrowing",
+          "note": "OverDrive电子书馆藏索引，不代表用户已有借阅资格。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M060",
@@ -1289,7 +1380,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://penguinrandomhousebacklistvault.com/book/?isbn=9781401938109",
+          "type": "publisher_ebook_catalog",
+          "note": "官方标注EPUB电子书，未获取文件。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M061",
@@ -1311,7 +1411,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M062",
@@ -1333,7 +1434,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M063",
@@ -1354,7 +1456,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M064",
@@ -1375,7 +1478,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.penguinrandomhouse.com/books/601367/e-cubed-by-pam-grout/",
+          "type": "publisher_ebook_catalog",
+          "note": "出版商页面提供Ebook格式，未获取。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M065",
@@ -1396,7 +1508,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M066",
@@ -1417,7 +1530,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.overdrive.com/media/2841610/you-are-a-badass-at-making-money",
+          "type": "library_borrowing",
+          "note": "合法借阅发现入口，未借阅。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M067",
@@ -1438,7 +1560,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M068",
@@ -1459,7 +1582,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M069",
@@ -1480,7 +1604,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://newworldlibrary.com/product/creating-money",
+          "type": "publisher_book_catalog",
+          "note": "出版社书籍入口；先前仅作者章节样本，此处补充正式出版入口。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M070",
@@ -1501,7 +1634,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M071",
@@ -1522,7 +1656,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M072",
@@ -1544,7 +1679,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M073",
@@ -1567,7 +1703,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M074",
@@ -1588,7 +1725,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M075",
@@ -1609,7 +1747,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M076",
@@ -1630,7 +1769,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M077",
@@ -1651,7 +1791,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M078",
@@ -1672,7 +1813,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.overdrive.com/media/642586/the-untethered-soul",
+          "type": "library_borrowing",
+          "note": "OverDrive完整电子书借阅发现入口，须馆证/馆藏许可，未借阅。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M079",
@@ -1693,7 +1843,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://nypl.overdrive.com/media/322127",
+          "type": "library_borrowing",
+          "note": "NYPL/OverDrive正版电子书，由New World Library出版；未借阅。",
+          "public_redistribution_granted": false
+        }
+      ]
     },
     {
       "id": "M080",
@@ -1714,7 +1873,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M081",
@@ -1735,7 +1895,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M082",
@@ -1756,7 +1917,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M083",
@@ -1778,7 +1940,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M084",
@@ -1799,7 +1962,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M085",
@@ -1820,7 +1984,8 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。"
     },
     {
       "id": "M086",
@@ -1842,7 +2007,16 @@
       "private_use_status": "not_applicable_no_fulltext_acquired",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
+      "legal_acquisition_routes": [
+        {
+          "url": "https://www.shambhala.com/products/happiness-trap-second-edition-how-to-stop-struggling-and-start-living",
+          "type": "paid_ebook",
+          "note": "出版社销售第二版电子书，不是作者免费首章；未购买。",
+          "public_redistribution_granted": false
+        }
+      ]
     }
   ]
 }
