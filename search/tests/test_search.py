@@ -1,7 +1,7 @@
 import sys,tempfile,json,unittest,zipfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from search_books import build,search,extract,chunk_blocks,eligible_blocks
+from search_books import build,search,extract,chunk_blocks,eligible_blocks,contextual_blocks
 class TestSearch(unittest.TestCase):
  def test_roundtrip(self):
   with tempfile.TemporaryDirectory() as d:
@@ -49,4 +49,8 @@ class TestSearch(unittest.TestCase):
   kept=list(eligible_blocks(blocks));self.assertEqual(len(kept),1)
   chunks=list(chunk_blocks(kept));self.assertTrue(all(len(t)<=900 for _,_,t in chunks))
   self.assertEqual(''.join(t for _,_,t in chunks),kept[0][1])
+ def test_heading_context(self):
+  body='This paragraph provides supporting detail and sufficient context for a reader to inspect the source rather than receiving a bare heading alone.'
+  result=list(contextual_blocks([('doc#block-1','INTUITION OR GUIDANCE'),('doc#block-2',body)]))
+  self.assertEqual(len(result),1);self.assertIn(body,result[0][1]);self.assertIn('heading=doc#block-1',result[0][0])
 if __name__=='__main__':unittest.main()
