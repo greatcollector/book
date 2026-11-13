@@ -7,9 +7,10 @@
     "additional_file_quarantined": 1,
     "public_fulltext_files_uploaded": 2,
     "global_redistribution_clearance_confirmed": 0,
-    "user_supplied_private_analysis_records": 3,
+    "user_supplied_private_analysis_records": 4,
     "user_supplied_private_analysis_ids": [
       "M036",
+      "M037",
       "M055",
       "M056"
     ]
@@ -807,19 +808,22 @@
       "final_source_url": "https://redwheelweiser.com/book/the-nature-of-personal-reality-9781878424068/",
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_check": "用户提供仅用于私有分析；未确认公开再分发授权，不上传正文或私有索引。",
       "rights_evidence_url": "https://redwheelweiser.com/book/the-nature-of-personal-reality-9781878424068/",
-      "language_result": "未确认可再分发的中文全文；所核备选为英文",
+      "language_result": "公开来源可再分发的中文全文未确认；这不否定用户已提供私有分析文件。",
       "source_access_status": "not_separately_recorded_in_research",
       "original_entry_check": {
         "id": "M037",
         "error": "The read operation timed out"
       },
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "user_supplied_file_received",
+      "private_use_status": "user_supplied_private_analysis_only",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "legal_full_text_status": "user_supplied_file_received_used_in_private_pilot",
+      "acquisition_basis": "用户已提供文件并用于私有试点；不代表公开来源已取得全文或获得公开再分发许可。",
+      "reason": "更正此前 not_acquired 状态：用户提供文件已用于私有分析，正文及私有试点产物未公开。"
     },
     {
       "id": "M038",
