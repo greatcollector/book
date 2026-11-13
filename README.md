@@ -1,6 +1,14 @@
 # 书籍目录与离线检索试点
 
-## 本批实际内容
+## 新增原样 EPUB 归档
+
+本批新增 [M023：The Science of Getting Rich](books/M023/README.md) 和 [M025：As a Man Thinketh](books/M025/README.md)，保留各自完整 Project Gutenberg 许可。美国及中国原文判断不是全球版权保证；具体限制见每书目录。M029 暂不公开。
+
+> This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg™ License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
+
+完整许可：[M023](books/M023/LICENSE-PG.txt) · [M025](books/M025/LICENSE-PG.txt) · [Project Gutenberg](https://www.gutenberg.org/)
+
+## 首批历史记录（不含本次新增 EPUB）
 
 - `catalog/booklist.csv`：86 条输入书目，分 8 类。它是待核实的阅读目录，不是已取得的 86 本书。书名、作者、分类、主题和备注保留输入信息；主题不是通读后的结论，译名与具体版本仍需核对。部分条目可能表示合集或多册。
 - `search/search_books.py`：Python 标准库实现的 EPUB/TXT 提取、分段、SQLite 存储和 TF-IDF 词汇检索代码。

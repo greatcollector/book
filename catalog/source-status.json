@@ -5,7 +5,7 @@
     "catalog_records": 86,
     "english_private_pilot_files_acquired": 6,
     "additional_file_quarantined": 1,
-    "public_fulltext_files_uploaded": 0,
+    "public_fulltext_files_uploaded": 2,
     "global_redistribution_clearance_confirmed": 0,
     "user_supplied_private_analysis_records": 3,
     "user_supplied_private_analysis_ids": [
@@ -492,7 +492,7 @@
       "final_source_url": "https://www.gutenberg.org/ebooks/59844",
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
-      "rights_check": "具体 EPUB 内声明美国公版并包含完整 Gutenberg 许可；免费原样再分发须保留许可。公共远端上传仍待主线程确认地区范围。",
+      "rights_check": "PG 对具体英文文件声明美国公版；中国原作者原文财产权期限已届满。完整 PG 许可保留。不是全球公版保证，封面、肖像及每项现代附加素材未独立核验。",
       "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -502,11 +502,13 @@
         "url": "https://www.gutenberg.org/ebooks/59844"
       },
       "acquisition_status": "acquired_private_research_file",
-      "private_use_status": "private_research_only_not_publication_clearance",
-      "redistribution_status": "not_cleared_for_public_repository",
+      "private_use_status": "public_original_epub_available_under_stated_limits",
+      "redistribution_status": "published_under_pg_terms_us_and_china_original_text_assessment_not_global",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded",
-      "acquired_language": "English"
+      "public_fulltext_status": "uploaded_original_epub_with_complete_pg_license",
+      "acquired_language": "English",
+      "public_repository_path": "books/M023/M023.epub",
+      "license_path": "books/M023/LICENSE-PG.txt"
     },
     {
       "id": "M024",
@@ -536,7 +538,7 @@
       "final_source_url": "https://www.gutenberg.org/ebooks/4507",
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
-      "rights_check": "具体 EPUB 内声明美国公版并包含完整 Gutenberg 许可；免费原样再分发须保留许可。公共远端上传仍待主线程确认地区范围。",
+      "rights_check": "PG 对具体英文文件声明美国公版；中国原作者原文财产权期限已届满。完整 PG 许可保留。不是全球公版保证，封面、肖像及每项现代附加素材未独立核验。",
       "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -546,11 +548,13 @@
         "url": "https://www.gutenberg.org/ebooks/4507"
       },
       "acquisition_status": "acquired_private_research_file",
-      "private_use_status": "private_research_only_not_publication_clearance",
-      "redistribution_status": "not_cleared_for_public_repository",
+      "private_use_status": "public_original_epub_available_under_stated_limits",
+      "redistribution_status": "published_under_pg_terms_us_and_china_original_text_assessment_not_global",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded",
-      "acquired_language": "English"
+      "public_fulltext_status": "uploaded_original_epub_with_complete_pg_license",
+      "acquired_language": "English",
+      "public_repository_path": "books/M025/M025.epub",
+      "license_path": "books/M025/LICENSE-PG.txt"
     },
     {
       "id": "M026",
@@ -641,7 +645,8 @@
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded",
-      "acquired_language": "English"
+      "acquired_language": "English",
+      "publication_blocker": "现代附加内容权利待核，保持私有，不公开。"
     },
     {
       "id": "M030",
