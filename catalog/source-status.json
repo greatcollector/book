@@ -3,7 +3,6 @@
   "scope_note": "来源调查元数据快照。取得文件、允许私有研究、可公开再分发是不同状态；任何地区的公版声明不代表全球版权已核。本文件不含正文或索引。 用户提供文件与公开来源调查分别记录；收到文件不等于版本及完整性已验证，更不等于获得公开再分发授权。",
   "summary": {
     "catalog_records": 86,
-    "english_private_pilot_files_acquired": 6,
     "additional_file_quarantined": 1,
     "public_fulltext_files_uploaded": 2,
     "global_redistribution_clearance_confirmed": 0,
@@ -13,7 +12,39 @@
       "M037",
       "M055",
       "M056"
-    ]
+    ],
+    "private_index_parent_records": 14,
+    "private_index_parent_ids": [
+      "M023",
+      "M024",
+      "M025",
+      "M026",
+      "M027",
+      "M028",
+      "M029",
+      "M030",
+      "M031",
+      "M033",
+      "M036",
+      "M037",
+      "M055",
+      "M056"
+    ],
+    "english_research_parent_records": 11,
+    "english_research_parent_ids": [
+      "M023",
+      "M024",
+      "M025",
+      "M026",
+      "M027",
+      "M028",
+      "M029",
+      "M030",
+      "M031",
+      "M033",
+      "M036"
+    ],
+    "counting_note": "按父级书目去重；M036 用户提供版本与新增英文版本不重复计数。M024 旧受限PDF仍隔离，替代无加密版本用于私有索引。公开正文仍仅M023、M025。"
   },
   "books": [
     {
@@ -509,16 +540,17 @@
       "public_fulltext_status": "uploaded_original_epub_with_complete_pg_license",
       "acquired_language": "English",
       "public_repository_path": "books/M023/M023.epub",
-      "license_path": "books/M023/LICENSE-PG.txt"
+      "license_path": "books/M023/LICENSE-PG.txt",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M024",
       "title_en": "The Science of Being Great",
       "author": "华莱士·沃特尔斯 Wallace D. Wattles",
-      "final_source_url": "https://soilandhealth.org/book/how-to-be-a-genius-or-the-science-of-being-great/",
+      "final_source_url": "https://barbarawaterhouse.com/books/",
       "source_type": "public_domain_library",
       "bibliography_check": "书库记录为 1911 年完整未改动文本，含原传记附记",
-      "rights_check": "条目明确标为 Public domain；书库规则区分公版与仅限借阅的版权书",
+      "rights_check": "该组织提供免费完整下载，具体PDF首页明确公版；未确认全球公开托管范围，现代格式附加材料不另作授权推定。",
       "rights_evidence_url": "https://soilandhealth.org/library-rules-and-copyright-notice-ag/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -526,11 +558,18 @@
         "id": "M024",
         "error": "The read operation timed out"
       },
-      "acquisition_status": "downloaded_quarantined_copy_restriction",
-      "private_use_status": "excluded_from_pilot_copy_restriction",
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "research_version_notes": "新无加密81页替代版含全部22章与总结；与被隔离77页版本不同，没有原版传记附记，不宣称包含所有附录。",
+      "download_status": "官方书页提供的完整无加密PDF已下载并提取；仅私有研究",
+      "private_index_status": "included_in_private_index",
+      "acquired_language": "English",
+      "previous_file_status": "earlier_restricted_pdf_remains_quarantined",
+      "current_file_status": "alternative_unencrypted_pdf_used_in_private_index",
+      "legal_full_text_status": "alternative_file_acquired_private_only"
     },
     {
       "id": "M025",
@@ -555,7 +594,8 @@
       "public_fulltext_status": "uploaded_original_epub_with_complete_pg_license",
       "acquired_language": "English",
       "public_repository_path": "books/M025/M025.epub",
-      "license_path": "books/M025/LICENSE-PG.txt"
+      "license_path": "books/M025/LICENSE-PG.txt",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M026",
@@ -578,7 +618,8 @@
       "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded",
       "acquired_language": "English",
-      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared."
+      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared.",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M027",
@@ -601,7 +642,8 @@
       "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded",
       "acquired_language": "English",
-      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared."
+      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared.",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M028",
@@ -610,7 +652,7 @@
       "final_source_url": "https://www.gutenberg.org/ebooks/23559",
       "source_type": "project_gutenberg",
       "bibliography_check": "Gutenberg 条目题名与作者匹配",
-      "rights_check": "Gutenberg 明示美国公版；须保留嵌入许可，非美国地区需独立确认",
+      "rights_check": "PG具体文件标美国公版；中国大陆原作者1958逝世，按自然人死亡后50年规则推算原文财产权期限2008年底届满。保留署名及完整PG许可；公开全球托管另审。",
       "rights_evidence_url": "https://www.gutenberg.org/policy/permission.html",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -619,11 +661,15 @@
         "status": 200,
         "url": "https://www.gutenberg.org/ebooks/23559"
       },
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "research_version_notes": "未见现代译文/他人新序言；只有PG电子文本制作信息、完整许可与PG生成式几何封面。嵌入原书诗文随1903版存在，未逐一独立考证引文作者。英国等死后70年地区仍不能以中国大陆期限代替。",
+      "download_status": "已下载并核验完整英文 EPUB，可用于私有研究",
+      "private_index_status": "included_in_private_index",
+      "acquired_language": "English"
     },
     {
       "id": "M029",
@@ -647,7 +693,8 @@
       "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded",
       "acquired_language": "English",
-      "publication_blocker": "现代附加内容权利待核，保持私有，不公开。"
+      "publication_blocker": "现代附加内容权利待核，保持私有，不公开。",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M030",
@@ -670,16 +717,17 @@
       "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded",
       "acquired_language": "English",
-      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared."
+      "publication_blocker": "Source branding removal condition and territorial rights require verification; no compliant public copy prepared.",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M031",
       "title_en": "The Secret Door to Success",
       "author": "弗洛伦斯·斯科维尔·希恩 Florence Scovel Shinn",
-      "final_source_url": "https://devorss.com/products/the-secret-door-to-success",
+      "final_source_url": "https://www.globalgreyebooks.com/secret-door-to-success-ebook.html",
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_check": "Sacred Texts具体版本说明美国未续期且文件可任意用途；原作者1940年逝世。当前Global Grey EPUB仍须遵守去品牌托管条件。",
       "rights_evidence_url": "https://devorss.com/products/the-secret-door-to-success",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -687,11 +735,15 @@
         "id": "M031",
         "error": "The read operation timed out"
       },
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "research_version_notes": "1940/1941出版年差异取决于版本；本地为Global Grey14章版本，未冒称1930年代其他版本。",
+      "download_status": "已下载英文 EPUB，供私有本地研究；原带品牌版本不允许直接公开转载",
+      "private_index_status": "included_in_private_index",
+      "acquired_language": "English"
     },
     {
       "id": "M032",
@@ -718,10 +770,10 @@
       "id": "M033",
       "title_en": "The Science of Mind",
       "author": "欧内斯特·霍姆斯 Ernest Holmes",
-      "final_source_url": "https://sacred-texts.com/eso/som/index.htm",
+      "final_source_url": "https://barbarawaterhouse.com/books/",
       "source_type": "sacred_texts_archive",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "站点提供英文全文并声称美国公版；具体使用条款和地域适用性仍需核",
+      "rights_check": "该组织提供免费完整下载，具体PDF首页明确公版；未确认全球公开托管范围，现代格式附加材料不另作授权推定。",
       "rights_evidence_url": "https://sacred-texts.com/copyrights",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -729,11 +781,15 @@
         "id": "M033",
         "error": "The read operation timed out"
       },
-      "acquisition_status": "not_acquired",
-      "private_use_status": "not_applicable_no_fulltext_acquired",
+      "acquisition_status": "acquired_private_research_file",
+      "private_use_status": "private_research_only_not_publication_clearance",
       "redistribution_status": "not_cleared_for_public_repository",
       "global_rights_status": "not_verified",
-      "public_fulltext_status": "not_uploaded"
+      "public_fulltext_status": "not_uploaded",
+      "research_version_notes": "明确1926原版，不是1938扩充修订版。Global Grey页面将首版写成1922，与文件版权页及官方机构1926说法冲突，因此采用本官方来源。Ernest Holmes 1960年逝世，死后70年地区仍需核查。",
+      "download_status": "官方书页提供的完整无加密PDF已下载并提取；仅私有研究",
+      "private_index_status": "included_in_private_index",
+      "acquired_language": "English"
     },
     {
       "id": "M034",
@@ -781,10 +837,10 @@
       "id": "M036",
       "title_en": "Think and Grow Rich",
       "author": "拿破仑·希尔 Napoleon Hill",
-      "final_source_url": "https://www.naphill.org/shop/books/paperback/think-and-grow-rich-the-1937-edition/",
+      "final_source_url": "https://www.globalgreyebooks.com/think-and-grow-rich-ebook.html",
       "source_type": "official_publisher_or_author",
       "bibliography_check": "已定位作者/出版社书目；具体译本未核",
-      "rights_check": "未找到允许公开再分发全文的许可；仅保留元数据和合法入口",
+      "rights_check": "具体早期原文有Sacred Texts未续期说明及所附检索报告图像线索；Global Grey版可私用，但公开托管须去品牌；不将站方笼统英国公版说明当作此书的英国法律结论。",
       "rights_evidence_url": "https://www.naphill.org/shop/books/paperback/think-and-grow-rich-the-1937-edition/",
       "language_result": "未确认可再分发的中文全文；所核备选为英文",
       "source_access_status": "not_separately_recorded_in_research",
@@ -799,7 +855,12 @@
       "public_fulltext_status": "not_uploaded",
       "legal_full_text_status": "user_supplied_file_received_completeness_not_asserted_by_this_metadata_update",
       "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。",
-      "reason": "用户已提供文件供私有分析；未公开上传正文，完整性及具体版本依私有核验记录另行确认。"
+      "reason": "用户已提供文件供私有分析；未公开上传正文，完整性及具体版本依私有核验记录另行确认。",
+      "research_version_notes": "Napoleon Hill 1970年逝世，死后70年地区不能直接以美国未续期为全球许可。只用于私有本地研究，不上传。",
+      "download_status": "已下载英文 EPUB，供私有本地研究；原带品牌版本不允许直接公开转载",
+      "private_index_status": "included_in_private_index",
+      "additional_english_version_status": "acquired_private_research_only",
+      "counting_note": "用户提供版本及新增英文版本属于同一父级书目，合计只计一次。"
     },
     {
       "id": "M037",
@@ -823,7 +884,8 @@
       "public_fulltext_status": "not_uploaded",
       "legal_full_text_status": "user_supplied_file_received_used_in_private_pilot",
       "acquisition_basis": "用户已提供文件并用于私有试点；不代表公开来源已取得全文或获得公开再分发许可。",
-      "reason": "更正此前 not_acquired 状态：用户提供文件已用于私有分析，正文及私有试点产物未公开。"
+      "reason": "更正此前 not_acquired 状态：用户提供文件已用于私有分析，正文及私有试点产物未公开。",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M038",
@@ -1254,7 +1316,8 @@
       "global_rights_status": "not_verified",
       "public_fulltext_status": "not_uploaded",
       "public_fulltext_search_result": "未确认无需购买、登录或借阅即可合法取得的完整文本；网页可读或有样章不等于全本。",
-      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。"
+      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M056",
@@ -1285,7 +1348,8 @@
           "public_redistribution_granted": false
         }
       ],
-      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。"
+      "acquisition_basis": "用户提供，仅限私有分析；不代表公开来源已取得全文或再分发许可。",
+      "private_index_status": "included_in_private_index"
     },
     {
       "id": "M057",
